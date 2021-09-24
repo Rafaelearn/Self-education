@@ -4,19 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
+namespace Lessons_Simple_code_1
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
-            double a = 6.99999;
-            Console.WriteLine((int)a);
-
-
-            double.TryParse(Console.ReadLine(), out a);
-            Console.WriteLine(a);
         }
     }
 }
