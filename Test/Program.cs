@@ -11,12 +11,12 @@ namespace Test
         
         static void Main(string[] args)
         {
-            double a = 6.99999;
-            Console.WriteLine((int)a);
-
-
-            double.TryParse(Console.ReadLine(), out a);
-            Console.WriteLine(a);
+            while (true)
+            {
+                int a;
+                int.TryParse(Console.ReadLine(), out a);
+                Console.WriteLine(a);
+            }
         }
     }
 }
